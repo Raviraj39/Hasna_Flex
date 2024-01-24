@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+:root{
+	--font-outfit: 'Outfit', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+.small-top-text{
+	font-size: 0.8em;
+	color: #30557d;
+	font-family: var(--font-roboto);
+	font-weight: 300;
+}
+
+.login-text{
+	font-size: 1.3em;
+	color: #30557d;
+	font-family: var(--font-roboto);
+	font-weight: 300;
+}
+
+.hero-container{
+	background-image: url(../images/shop-header-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	width: 100%;
+}
+.hero-container div{
+	width: 100%;
+	height: 70vh;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    text-align: center;
+	background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.login-btn{
+	background-color: #d7102d;
+	color:#fff;
+	font-size: 1em;
+	padding: 10px 0px;
+	border-radius: 2px;
+}
+
+.register-btn{
+	background-color: #000;
+	color:#fff;
+	font-size: 1em;
+	padding: 10px 0px;
+	border-radius: 2px;
+}
+
+.list-register li i {
+	color:#d7102d;
+	font-size: 1em;
+	margin-right: 20px;
+}
+.list-register li{
+
+}
